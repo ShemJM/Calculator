@@ -1,0 +1,47 @@
+body {
+  /*! background-color: white; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+#calculator {
+  width: 250px;
+  height: 400px;
+  background-color: grey;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px;
+  margin: auto;
+}
+
+.button {
+  width: 19%;
+  height: 70px;
+  box-shadow: 1px 1px 1px 1px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  width: 95%;
+  margin: auto;
+  margin-top:10px;
+}
+
+#screen {
+  width: 90%;
+  height: 15%;
+  background-color: green;
+  margin: auto;
+  color: white;
+  text-align: right;
+  overflow: hidden;
+}
